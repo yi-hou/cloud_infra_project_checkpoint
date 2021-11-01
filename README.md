@@ -8,6 +8,9 @@
   5. Create a service 
 
 ## Build/run commands I used to run the client-side application:
-  1. docker build -t honeymonkeyhy/project_check_point .
-  2. docker push honeymonkeyhy/project_check_point
-  3. docker run honeymonkeyhy/project_check_point
+  1. cd client && docker build -t honeymonkeyhy/project_check_point .
+  2. cd client && docker push honeymonkeyhy/project_check_point
+  3. cd client && docker run honeymonkeyhy/project_check_point
+### Build/run commands I used to run on local:
+  Build: cd client && npm run build
+  Run: cd client && npm start
