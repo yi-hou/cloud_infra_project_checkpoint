@@ -12,5 +12,5 @@
   2. docker push honeymonkeyhy/project_check_point
   3. docker run honeymonkeyhy/project_check_point
 ### Build/run commands I used to run on local:
-  Build: npm run build
-  Run: npm start
+  1. Build: npm run build
+  2. Run: npm start
